@@ -33,7 +33,7 @@ The essence of a key-value store is the ability to store some data, called a _va
 
     SET foo bar
 
-Redis stores data permanently, so if I later ask "_What is the value stored in key foo?_" Redis will reply with *bar*:
+Redis stores data persistently, so if I later ask "_What is the value stored in key foo?_" Redis will reply with *bar*:
 
     GET foo => bar
 
